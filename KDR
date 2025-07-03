@@ -38,7 +38,25 @@ Smart Health Screening Kiosk for Bacolod Barangays
 Impact: Improves health screening access by 30%, reduces hospital visits, and supports rural healthcare.
 Implementation Notes: Partner with the City Health Office. Hardware cost ~$16 per kiosk. Pilot in Pahanocoy’s health center.
 
+Smart Barangay Clinic Vitals Station with Touchscreen and GSM Reporting
 
+🧠 What it does:
+Allows patients to self-check blood pressure, temperature, and O2 level. Data is sent to the nurse’s dashboard or via SMS to city health office.
+
+🛠️ Hardware:
+	•	Raspberry Pi
+	•	BP monitor (serial type)
+	•	Thermometer + oximeter sensors
+	•	Touchscreen
+	•	GSM module
+
+💻 In C:
+	•	Sensor data acquisition
+	•	Interface + log
+	•	GSM sync
+
+✅ Use Case: Makes healthcare more efficient in small or undermanned barangay clinics
+💰 Cost Estimate: ₱10,000–₱15,000
 
 
 
@@ -53,3 +71,25 @@ markdown
 Show inline
 Impact: Reduces spoilage by 20%, enhances public health, and saves vendors’ income.
 Implementation Notes: Partner with the City Health Office. Hardware cost ~$16 per stall. Pilot in Libertad Market’s perishable sections.
+
+
+
+Barangay Streetlight Maintenance System with Fault Detection
+
+🧠 What it does:
+Each lamp post monitors its own power and light output. If a lamp is dim or dead, it logs the issue and sends SMS to barangay staff.
+
+🛠 Hardware:
+	•	Raspberry Pi
+	•	Light intensity sensor (LDR or TSL2561)
+	•	Current sensor
+	•	GSM module
+	•	Solar panel (optional)
+
+💻 In C:
+	•	Fault detection logic
+	•	Time-based diagnostics
+	•	SMS reporting
+
+✅ Use Case: Speeds up repairs and improves safety in barangay streets
+💰 Estimated Cost: 
