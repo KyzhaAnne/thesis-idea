@@ -1,0 +1,24 @@
+Offline-Capable Smart Barangay Census & Resident Tracking Kiosk
+
+🧠 Idea:
+
+Design a solar-powered kiosk with RFID and touchscreen where residents check in, update info, and log community events — works offline, syncs to LGU when internet is available.
+
+🛠 Hardware:
+	•	Raspberry Pi
+	•	Touchscreen
+	•	RFID reader
+	•	SD storage or SQLite
+	•	Solar panel + battery
+
+🧠 Software in C:
+	•	Local database management (CSV or SQLite via C bindings)
+	•	RFID log + UI code
+	•	Offline data sync routine to main server
+  - cloud server
+
+✅ Complexity: Full-stack device with GUI, offline sync, local auth
+✅ Use: Streamlines LGU services and census tracking
+
+dfd 
+conceptual framework
