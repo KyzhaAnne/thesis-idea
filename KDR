@@ -22,3 +22,34 @@ Design a solar-powered kiosk with RFID and touchscreen where residents check in,
 
 dfd 
 conceptual framework
+
+
+
+
+
+
+8. Smart Health Screening Kiosk for Bacolod’s Rural Barangays
+Problem: Rural barangays like Pahanocoy lack accessible health screening tools for basic vitals, forcing residents to travel to urban hospitals, increasing costs and delays.
+Proposed Solution: Develop a Raspberry Pi Pico ($4)-based health kiosk with temperature sensors ($2), pulse oximeters ($5), and a low-cost display ($5). The software includes a mobile app (Flutter) with Ilonggo health reports and a web platform (Django) for the City Health Office. Add a rule-based algorithm for real-time alerts and offline storage for rural connectivity.
+Thesis Title:
+Smart Health Screening Kiosk for Bacolod Barangays
+
+
+Impact: Improves health screening access by 30%, reduces hospital visits, and supports rural healthcare.
+Implementation Notes: Partner with the City Health Office. Hardware cost ~$16 per kiosk. Pilot in Pahanocoy’s health center.
+
+
+
+
+
+
+
+Problem: Inadequate Food Safety Monitoring in Bacolod’s Wet Markets
+Description: Wet markets like Libertad and Burgos in Bacolod often lack real-time monitoring of food storage conditions (e.g., temperature for fish and meat), leading to spoilage, health risks, and economic losses for vendors.
+Proposed Thesis Solution: Develop a Raspberry Pi Zero ($10)-based food safety monitoring system using temperature sensors ($3) and humidity sensors ($3) to track storage conditions in market stalls. The software includes a mobile app (Flutter) with Ilonggo-language alerts for vendors when conditions exceed safe thresholds and a web dashboard (Django) for the Bacolod City Health Office to monitor compliance. Add a basic machine learning model (Scikit-learn) on the Pi Zero to predict spoilage risks based on historical data, with offline data logging for market areas with poor internet.
+Thesis Title:
+Food Safety Monitoring System for Bacolod Markets.md
+markdown
+Show inline
+Impact: Reduces spoilage by 20%, enhances public health, and saves vendors’ income.
+Implementation Notes: Partner with the City Health Office. Hardware cost ~$16 per stall. Pilot in Libertad Market’s perishable sections.
